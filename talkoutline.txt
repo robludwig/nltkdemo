@@ -1,0 +1,43 @@
+PYTHON NLTK TALK
+
+Goal is to describe NLTK, starting for python beginners and then moving to some more difficult stuff before we break out
+
+We want to write programs that deal with human language (esp. words), e.g.:
+Analyze and make sense of text for our own nefarious purposes.
+We can:
+    split text into words
+    turn those words into lemmas
+    tag words with parts of speech
+    do interesting things with words
+    
+We can use these steps to build interesting programs:
+    do sentiment analysis of things (tweets, articles)
+    extract the most important words from texts (to find out what they're about)
+    feed our results into an engine (a chatbot, etc)
+    translate words
+
+What do we need NLTK for? Python has string operations!
+-NLTK outperforms regexes on just about everything...
+    -tokenization (splitting text into words requires more than just whitespace/apostrophes)
+    -lemmatization (turning words into their "headword" or the dictionary key that they need)
+    -POS tagging (finding out what part of speech a word is)
+-NLTK provides a lot of tools for doing text-related operations
+    -mach learning functions (Bayesian)
+    -parsers for understanding sentences
+    -lots of corpuses to play with!
+-NLTK represents the best in computation linguistics: we should
+    -use the best tools
+    -don't reinvent the wheel
+
+    
+Let's look at 3 things you can do with NLTK:
+    -extract information about the words in a text
+        -what the words are
+        -what PoS they are
+        -what they mean (dictionary api)
+    -extract information about the sentences in a text
+        -their parse tree
+        -a sentence summarizer
+    -create your own word categorizer
+        -use a corpus
+        -train a classifier
