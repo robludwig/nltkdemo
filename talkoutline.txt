@@ -40,7 +40,7 @@ To minimize errors! Humans don't talk wrong...
     
 Let's look at 3 things you can do with NLTK:
     -extract information about the words in a text
-        -what the words are
+        -what the words and sentences are
         -what PoS they are
         -what they mean (dictionary api)
     -extract information about the sentences in a text
