@@ -56,6 +56,7 @@ test_set = build_tagged_names(test_set_untagged, feature_function)
 training_set = build_tagged_names(training_set_untagged, feature_function)
 name_classifier = train_classifier(training_set)
 
+#name_classifier.show_most_informative_features(5)
 
 
 
