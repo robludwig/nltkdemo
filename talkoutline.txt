@@ -38,13 +38,10 @@ To minimize errors! Humans don't talk wrong...
     -don't reinvent the wheel
 
     
-Let's look at 3 things you can do with NLTK:
+Let's look at 2 things you can do with NLTK:
     -extract information about the words in a text
         -what the words and sentences are
         -what PoS they are
-    -extract information about the sentences in a text
-        -their parse tree
-        -a sentence summarizer
     -create your own word categorizer
         -use a corpus
         -train a classifier
