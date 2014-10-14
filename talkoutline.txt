@@ -2,6 +2,13 @@ PYTHON NLTK TALK
 
 Goal is to describe NLTK, starting for python beginners and then moving to some more difficult stuff before we break out
 
+Get all the code for the project! github.com/robludwig/nltkdemo
+
+```
+gem install hub
+hub clone robludwig/nltkdemo
+```
+
 We want to write programs that deal with human language (esp. words), e.g.:
 Analyze and make sense of text for our own nefarious purposes.
 We can:
