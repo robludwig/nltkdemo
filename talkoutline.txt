@@ -17,6 +17,7 @@ We can use these steps to build interesting programs:
     translate words
 
 What do we need NLTK for? Python has string operations!
+To minimize errors! Humans don't talk wrong...
 -NLTK outperforms regexes on just about everything...
     -tokenization (splitting text into words requires more than just whitespace/apostrophes)
     -lemmatization (turning words into their "headword" or the dictionary key that they need)
